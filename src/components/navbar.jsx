@@ -7,6 +7,7 @@ function Navbar() {
         <div>
             <button onClick={() => navigate('/')}>Home</button>
             <button onClick={() => navigate('/about')}>About me</button>
+            <button onClick={() => navigate('/contact')}>Contact me</button>
         </div>
     );
 }
