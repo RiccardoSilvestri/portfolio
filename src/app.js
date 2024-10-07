@@ -5,15 +5,15 @@ import Space from './components/background';
 
 const App = () => {
   return (
-    <Space>
-      <div className="relative z-10">
+    <div className="relative z-10">
+      <Space>
         <Navbar />
         <main className="min-h-screen">
           <Outlet />
         </main>
         <Footer />
-      </div>
-    </Space>
+      </Space>
+    </div>
   );
 };
 

@@ -1,8 +1,6 @@
 import Svg from '../components/svg.jsx'
-import React, { useState } from 'react';
 
 const AboutMe = () => {
-  const [email, setEmail] = useState('');
   return (
     <div className="Dissolvenza max-w-sm mx-auto mt-8 bg-gray-500 bg-opacity-100 shadow-xl rounded-lg text-gray-900">
       <div className="rounded-t-lg h-24 overflow-hidden"></div>
