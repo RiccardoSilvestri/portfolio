@@ -7,7 +7,6 @@ const ContactMe = () => {
     event.preventDefault();
     setUser("INVIATO") 
   };
-
   return (
     <div>
       <h1>Form</h1>

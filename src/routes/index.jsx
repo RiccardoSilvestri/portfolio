@@ -4,6 +4,7 @@ import Home from '../pages/home.jsx';
 import AboutMe from '../pages/aboutMe.jsx';
 import ContactMe from '../pages/contactMe.jsx';
 import ErrorPage from '../pages/errorPage.jsx';
+import '../styles/index.css'
 
 export const router = createBrowserRouter([
   {
